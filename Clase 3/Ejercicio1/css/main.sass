@@ -1,0 +1,22 @@
+$color-principal: yellow
+$espacios: 10px
+.proyecto
+    width: 30%
+    margin: auto
+    position: relative
+    overflow: hidden
+    &:hover .proyecto-texto
+            transform: translateY(0%)
+    &-imagen
+        width: 100%
+    &-texto
+        background: $color-principal
+        padding: $espacios
+        position: absolute
+        bottom: 0
+        transform: translateY(100%)
+        transition: all .5s
+        font:
+            size: 20px
+            weight: bold
+            family: sans-serif

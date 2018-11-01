@@ -1,0 +1,5 @@
+@mixin estilos-boton($cantidad-radio, $grosor-borde, $color-borde){
+    padding: $espacios + 5px;
+    border-radius: $cantidad-radio;
+    border: $grosor-borde solid $color-borde;
+}
