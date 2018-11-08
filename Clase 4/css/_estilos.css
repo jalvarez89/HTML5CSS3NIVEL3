@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+* .flex-container {
+  width: 60%;
+  height: 500px;
+  background: grey;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+* .flex-item {
+  background: orange;
+  padding: 5px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 200px;
+}
+
+* .flex-item:nth-child(2) {
+  background: purple;
+  order: 1;
+  flex-grow: 3;
+}
+
+* .flex-item:nth-child(5) {
+  background: yellow;
+  order: 2;
+}
